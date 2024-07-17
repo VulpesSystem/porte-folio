@@ -1,17 +1,26 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  darkMode: "class",
+  content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "pastel-gradient": "linear-gradient(45deg, rgba(208, 231, 255, 1) 0%, rgba(224, 215, 255, 1) 50%, rgba(208, 240, 231, 1) 100%)",
+      },
+      colors: {
+        blackish: "rgba(26, 26, 26, 1)",
+        lightGreyText: "rgba(255, 255, 255, 0.87)",
+        whitish: "rgba(245, 245, 245, 1)",
+        offWhite: "rgba(230, 230, 230, 1)",
+        cream: "rgba(255, 250, 220, 1)",
+        primaryBlue: "rgba(208, 231, 255, 1)",
+        primaryPurple: "rgba(224, 215, 255, 1)",
+        primaryTeal: "rgba(208, 240, 231, 1)",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        exo: ["Exo", "sans-serif"],
       },
     },
   },
