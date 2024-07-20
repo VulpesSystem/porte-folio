@@ -8,6 +8,8 @@ const config: Config = {
       backgroundImage: {
         "pastel-gradient":
           "linear-gradient(to bottom right, rgba(208, 231, 255, 1) 0%, rgba(224, 215, 255, 1) 25%, rgba(208, 240, 231, 1) 50%, rgba(224, 215, 255, 1) 75%, rgba(208, 231, 255, 1) 100%)",
+        "pastel-gradient-straight":
+          "linear-gradient(to right, rgba(208, 231, 255, 1) 0%, rgba(224, 215, 255, 1) 25%, rgba(208, 240, 231, 1) 50%, rgba(224, 215, 255, 1) 75%, rgba(208, 231, 255, 1) 100%)",
       },
       colors: {
         blackish: "rgba(26, 26, 26, 1)",
