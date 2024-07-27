@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import BeingBuiltBanner from "@/components/being-built-banner";
-import NavigationMenuDesktop from "@/components/navigation-menu-desktop";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -25,9 +24,6 @@ export default function RootLayout({
       </head>
       <body className="relative h-full w-full">
         <BeingBuiltBanner />
-        <div className="hidden md:block">
-          <NavigationMenuDesktop />
-        </div>
         {children}
       </body>
     </html>

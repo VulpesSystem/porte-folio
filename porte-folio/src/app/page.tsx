@@ -1,6 +1,9 @@
+import NavigationMenuDesktop from "@/components/navigation-menu-desktop";
+
 export default function Home() {
   return (
     <div className="relative h-screen">
+      <NavigationMenuDesktop />
       <div className="bg-cream rounded-lg w-8/12 h-1/2 absolute inset-0 m-auto p-5">
         <div className="bg-pastel-gradient rounded p-1 h-full">
           <div className="bg-blackish p-0.5 h-full rounded">

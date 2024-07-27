@@ -25,6 +25,16 @@ const config: Config = {
         montserrat: ["Montserrat", "sans-serif"],
         exo: ["Exo", "sans-serif"],
       },
+      keyframes: {
+        menu_desktop_hover: {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.05)" },
+          "25%, 75%": { transform: "scale(0.95)" },
+        },
+      },
+      animation: {
+        menu_desktop_hover: "menu_desktop_hover 0.4s ease-in-out",
+      },
     },
   },
   plugins: [],
