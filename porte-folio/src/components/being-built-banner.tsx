@@ -6,7 +6,7 @@ export default function BeingBuiltBanner() {
           <div className="bg-blackish pb-0.5">
             <div className="bg-pastel-gradient-straight pb-0.5">
               <div className="bg-cream p-2">
-                <p className="text-blackish text-center font-sm">!! I'm still being built, please be gentle ~ </p>
+                <p className="text-blackish text-center font-sm">!! I'm still being built, please be gentle ~ (latest update : )</p>
               </div>
             </div>
           </div>
